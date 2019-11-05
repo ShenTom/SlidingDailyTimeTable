@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WokeupButton = (props) => {
+const WakeupButton = (props) => {
     return (
         <div className="WokeupButton">
           <button onClick={props.onClick}>
@@ -10,4 +10,4 @@ const WokeupButton = (props) => {
       );
 }
 
-export default WokeupButton;
+export default WakeupButton;

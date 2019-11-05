@@ -5,3 +5,8 @@
 .not-current-time-row {
     background-color: white;
 }
+
+.time-table {
+    margin:auto ;
+    margin-top: 100px;
+}
