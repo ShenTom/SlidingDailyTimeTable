@@ -2,18 +2,22 @@
     height: 70px;
     border-width: 1px;
     border-color: black;
+    border-bottom-style: solid;
     width: 300px;
 }
 
 .timeslot-cell-current {
-    height: 70px;
-    border-width: 1px;
-    border-color: black;
     background-color: rgb(168, 168, 240);
-    width: 300px;
 }
 
 
 .time-cell {
-    vertical-align: text-top;
+
+}
+
+.time-label {
+    height: 20px;
+    top: -38px;
+    position: relative;
+
 }

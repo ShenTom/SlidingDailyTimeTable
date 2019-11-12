@@ -14,8 +14,13 @@ const TimetableRow = (props) => {
     }
     return(
         <tr > 
-            <td className='time-cell'>{dateFormat(dateTime, "h:MM TT")}</td>
-            <td className={ isCurrentTime ? 'timeslot-cell-current' : 'timeslot-cell'}>{value}</td>
+            <td className='time-cell'>
+                <div className='time-label'>
+                    {dateFormat(dateTime, "h:MM TT")}
+                </div>
+                
+            </td>
+            <td className={ isCurrentTime ? 'timeslot-cell-current timeslot-cell' : 'timeslot-cell'}>{value}</td>
         </tr>
     )
 };
